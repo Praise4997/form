@@ -1,0 +1,80 @@
+body {
+padding: 0%;
+box-sizing: border-box;
+background-image: url('./images/bg-intro-desktop\ \(1\).png');
+background-color: rgba(255, 0, 0, 0.829);
+}
+main {width: 50%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 10px;
+    }
+.left {color: white;
+       flex: 50%;
+       margin: 10px;
+       }
+.h {font: 2em sans-serif;}
+.p {font: 0.7em ;}
+.dd {color:white;
+     background-color: rgb(104, 25, 179);
+    padding: 10px;
+    text-align: center;
+    border-radius:4px;}
+.bb {font-weight: lighter;
+     font-style: unset;}
+.top-container {
+            padding: px;}
+.buttom-container {background-color: white;
+                   padding: 5px;
+                   justify-content: center;
+                   padding-left: 5px;
+                   border-radius: 5px;
+                   border-top: 5px;}
+.right {flex-direction: row;
+         display: flex;
+         border: none;
+         flex: 50%;
+         margin: 20px;
+        }
+#name {padding:7px;
+       background-color: white;
+       box-sizing: border-box;
+       border-collapse: no-collapse;
+       justify-content: center;
+       margin: 10px;
+       border-radius: 5px;
+       width: 93%;
+       }
+button {background-color: rgb(9, 172, 96);
+        border: none;
+        padding: 5px;
+        text-align: center;
+        margin: 10px;
+        color: white;
+        border-radius: 4px;
+        width: 93%;
+        }
+.mm {text-align: center;
+     font-style: normal;
+     font-size: xx-small;
+     color: rgb(75, 75, 75);
+     margin-top: 0%;
+    }
+a {color: red;
+    background-color: transparent;
+     text-decoration: none;}
+@media screen and (max-width:1000){
+    main {
+        padding: 10px;
+    }
+}
+@media screen and (max-width :700px) {
+    main {
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+    }
+}
