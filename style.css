@@ -1,7 +1,7 @@
 body {
 padding: 0%;
 box-sizing: border-box;
-background-image: url('./images/bg-intro-desktop\ \(1\).png');
+background-image: url('./bg-intro-desktop\ \(1\).png');
 background-color: rgba(255, 0, 0, 0.829);
 }
 main {width: 50%;
@@ -78,5 +78,6 @@ a {color: red;
             flex-direction:column;
             align-items:center;
             background-image: url(./bg-intro-mobile.png);
+            background-color: rgb(233, 69, 10);
     }
 }
