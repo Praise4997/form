@@ -68,7 +68,8 @@ a {color: red;
      text-decoration: none;}
 @media screen and (max-width:1000){
     main {
-        padding: 10px;
+        width: 100%;
+        height: auto;
     }
 }
 @media screen and (max-width :700px) {
@@ -76,5 +77,6 @@ a {color: red;
             display:flex;
             flex-direction:column;
             align-items:center;
+            background-image: url(./bg-intro-mobile.png);
     }
 }
