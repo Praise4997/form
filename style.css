@@ -37,9 +37,9 @@ section {
     padding: 10px;
     text-align: center;
     border-radius:4px;}
-.bb {
-    font-weight: 1000;
-     font-style: unset;
+span.bb {
+    font-size: 12px;
+    font-style: unset;
      color: white;
     }
 .buttom-container {
