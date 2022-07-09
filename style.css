@@ -16,21 +16,24 @@ section {
     height: auto;
     margin: auto;
 }
-.left {color: white;
+.left {
+       color: white;
        padding: 2em;
        padding-right: 3em;
        padding-right: 60px;
        width: 50%;
        margin: auto;
        }
-.left h1  {font: 3em sans-serif;
+.left h1  {
+          font: 3em sans-serif;
           line-height: 75px;
            font-weight: 600;
            margin-bottom: 0.4em;
 }
 .left p {font-size: 17px ;}
-.dd {color:white;
-     background-color: rgb(104, 25, 179);
+.dd {
+    color:white;
+    background-color: rgb(104, 25, 179);
     padding: 10px;
     text-align: center;
     border-radius:4px;}
@@ -104,18 +107,55 @@ form p a {color: red;
         background-color: transparent;
         font-weight: 500;
         text-decoration: none;}
-@media screen and (max-width:1000){
-    main {
+@media screen and (max-width:1000px){
+    section {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        height: auto;
+    }
+    main {
+        padding: 10px;
+    }
+    .left, .right {
+        width: 70%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    .left h1 {
+        line-height: 50px;
+        font-size: 2.1em;
     }
 }
-@media screen and (max-width :700px) {
+@media screen and (max-width :606px) {
+    .left, .right{
+            width: 90%;
+            padding: 1.1rem;
+            margin: 0 auto;
+    }
+}
+@media screen and (max-width : 375px) {
     main {
-            display:flex;
-            flex-direction:column;
-            align-items:center;
-            background-image: url(./bg-intro-mobile.png);
-            background-color: rgb(233, 69, 10);
+        background: url(./bg-intro-mobile.png);
+        background-color: hsl(0, 100%, 74%);
+        min-height: 100vh;
+    }
+    .right, .left {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0.8rem;
+    }
+    form {
+        padding: 25px;
+    }
+    .left h1 {
+        font-size: 1.5em;
+        line-height: 40px;
+    }
+    .left p {
+        font-size: 14px;
+    }
+    input#submit {
+        font-size: 14px;
+        padding: 10px;
     }
 }
