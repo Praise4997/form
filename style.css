@@ -1,38 +1,49 @@
-body {
-padding: 0%;
-box-sizing: border-box;
-background-image: url('./bg-intro-desktop\ \(1\).png');
-background-color: rgba(255, 0, 0, 0.829);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
 }
-main {width: 50%;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      padding: 10px;
-    }
+main {
+    background-image: url('./bg-intro-desktop\ \(1\).png') repeat center center fixed;
+    background-color: hsl(0, 100%, 74%);
+    padding: 100px;
+    min-height: 100vh;
+}
+section {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
 .left {color: white;
-       flex: 50%;
-       margin: 10px;
+       padding: 2em;
+       padding-right: 3em;
+       padding-right: 60px;
+       width: 50%;
+       margin: auto;
        }
-.h {font: 2em sans-serif;}
-.p {font: 0.7em ;}
+.left h1  {font: 3em sans-serif;
+          line-height: 75px;
+           font-weight: 600;
+           margin-bottom: 0.4em;
+}
+.left p {font-size: 17px ;}
 .dd {color:white;
      background-color: rgb(104, 25, 179);
     padding: 10px;
     text-align: center;
     border-radius:4px;}
 .bb {font-weight: lighter;
-     font-style: unset;}
-.top-container {
-            padding: px;}
-.buttom-container {background-color: white;
-                   padding: 5px;
-                   justify-content: center;
-                   padding-left: 5px;
-                   border-radius: 5px;
-                   border-top: 5px;}
+     font-style: unset;
+    }
+.buttom-container {
+    background-color: white;
+    padding: 15px;
+    justify-content: center;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-top: 5px;}
 .right {flex-direction: row;
          display: flex;
          border: none;
