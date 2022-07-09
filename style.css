@@ -34,8 +34,10 @@ section {
     padding: 10px;
     text-align: center;
     border-radius:4px;}
-.bb {font-weight: lighter;
+.bb {
+    font-weight: 1000;
      font-style: unset;
+     color: white;
     }
 .buttom-container {
     background-color: white;
@@ -44,21 +46,45 @@ section {
     padding-left: 5px;
     border-radius: 5px;
     border-top: 5px;}
-.right {flex-direction: row;
-         display: flex;
-         border: none;
-         flex: 50%;
-         margin: 20px;
+.right {
+    padding: 60px;
+    margin: auto;
+    padding: 2em;
+    width: 50%;
         }
-#name {padding:7px;
-       background-color: white;
-       box-sizing: border-box;
-       border-collapse: no-collapse;
-       justify-content: center;
-       margin: 10px;
-       border-radius: 5px;
-       width: 93%;
-       }
+#name {
+    color: hsl(246, 25%, 77%);
+    width: 100%;
+    text-align: left;
+    font-size: smaller;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    }
+form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+input {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid hsl(246, 31%, 89%);
+    color: hsl(249, 10%, 26%);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+input#submit {
+    background-color: hsl(154, 59%, 51%);
+    padding: 15px;
+    color: white;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
 button {background-color: rgb(9, 172, 96);
         border: none;
         padding: 5px;
@@ -68,15 +94,16 @@ button {background-color: rgb(9, 172, 96);
         border-radius: 4px;
         width: 93%;
         }
-.mm {text-align: center;
-     font-style: normal;
-     font-size: xx-small;
-     color: rgb(75, 75, 75);
-     margin-top: 0%;
+form p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    color: rgb(75, 75, 75);
     }
-a {color: red;
-    background-color: transparent;
-     text-decoration: none;}
+form p a {color: red;
+        background-color: transparent;
+        font-weight: 500;
+        text-decoration: none;}
 @media screen and (max-width:1000){
     main {
         width: 100%;
