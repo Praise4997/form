@@ -33,7 +33,7 @@ section {
 .left p {font-size: 17px ;}
 .dd {
     color:white;
-    background-color: rgb(104, 25, 179);
+    background-color: rgb(114, 62, 163);
     padding: 10px;
     text-align: center;
     border-radius:4px;}
@@ -88,15 +88,10 @@ input#submit {
     cursor: pointer;
     border: none;
 }
-button {background-color: rgb(9, 172, 96);
-        border: none;
-        padding: 5px;
-        text-align: center;
-        margin: 10px;
-        color: white;
-        border-radius: 4px;
-        width: 93%;
-        }
+input:focus {
+    border: 2px solid hsl(249, 10%, 50%);
+    outline: none;
+}
 form p {
     text-align: center;
     padding-top: 10px;
